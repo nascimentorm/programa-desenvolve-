@@ -1,4 +1,4 @@
-<img src="https://cdn-icons-png.flaticon.com/512/9110/9110863.png" width="120](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DCvbPqt8BMEQ&psig=AOvVaw03KnIy6Gbz6LU3e4JWCv1e&ust=1750360639448000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPC-xNPX-40DFQAAAAAdAAAAABAM" />
+<img src="https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/8df5/a6c4/1fa0/41af/e2e1/bdb3/e1ed/ee5f/0c16/b997/b997.png" />
 
 # Projeto Desenvolve 🚀
 
