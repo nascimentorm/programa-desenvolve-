@@ -12,7 +12,7 @@ ________________________________________________________________________________
 
 <p>O conteúdo está dividido por semana, em pastas separadas:</p>
 
-- <a href="./semana-1">Semana 1</a>
+- <a href="[./semana-1](https://github.com/nascimentorm/programa-desenvolve-/tree/main/Semana%201)">Semana 1</a>
 - <a href="./semana-2">Semana 2</a>
 - <a href="./semana-3">Semana 3</a>
 - *(novas semanas serão adicionadas em breve)*
