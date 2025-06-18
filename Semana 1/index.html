@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Restaurante Vó Maria</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header style="background-color: deeppink; display: flex; justify-content: space-between; align-items: center; padding: 10px;">
+        <h1>Restaurante Vó Maria</h1>
+        <nav>
+            <ul style="list-style: none; display: flex; gap: 10px; margin: 0; padding: 0;">
+                <li><a href="#">Menu</a></li>
+                <li>
+                    <a href="https://www.pngall.com/wp-content/uploads/4/Delicious-Food-PNG-Image.png" target="_blank" rel="noopener noreferrer">
+                        Sobre o cardápio
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <section style="background-color: darkseagreen; padding: 20px;">
+        <div>
+            <h2>Deliciosas comidas da Vó Maria</h2>
+            <p>
+                Sua jornada começa com a inscrição. Se selecionado,<br />
+                você participará do curso de Gastronomia.<br />
+                Caso a inscrição seja concluída até o dia 30/08/2025,
+            </p>
+            <button style="background-color: chocolate; color: white; margin-right: 10px;">Compre</button>
+            <button>Venda</button>
+        </div>
+
+        <div style="display: flex; gap: 20px; margin: 20px 0;">
+            <!-- Imagem local: Salada.png -->
+            <img src="./Salada.png" alt="Imagem de salada feita pela Vó Maria" width="300" />
+            <!-- Imagem externa -->
+            <img src="https://rickesdigital.com/wp-content/uploads/2023/10/Hamburguer-Tradicional.png" alt="Imagem ilustrativa do cardápio" width="300" />
+        </div>
+
+        <div style="margin: 20px 0;">
+            <!-- Vídeo do YouTube corrigido -->
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/Zrb5bQc73kI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+            ></iframe>
+        </div>
+
+        <label for="forma">Escolha um formato:</label>
+        <select name="forma" id="forma">
+            <option value="flor">Flor</option>
+            <option value="circulo">Círculo</option>
+            <option value="triangulo">Triângulo</option>
+        </select>
+    </section>
+
+    <!-- Rodapé -->
+    <footer style="background-color: darkorchid; padding: 20px; color: white;">
+        <label for="dados">Digite seu e-mail:</label>
+        <input type="text" id="dados" name="dados" />
+        <p>
+            Interessados entar em contato conosco traves do e-mail!
+        </p>
+    </footer>
+</body>
+</html>
