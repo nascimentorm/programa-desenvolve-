@@ -1,74 +1,180 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Restaurante Vó Maria</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vó Maria | Restaurante & Cursos</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
-    <!-- Cabeçalho -->
-    <header style="background-color: deeppink; display: flex; justify-content: space-between; align-items: center; padding: 10px;">
-        <h1>Restaurante Vó Maria</h1>
-        <nav>
-            <ul style="list-style: none; display: flex; gap: 10px; margin: 0; padding: 0;">
-                <li><a href="#">Menu</a></li>
-                <li>
-                    <a href="https://www.pngall.com/wp-content/uploads/4/Delicious-Food-PNG-Image.png" target="_blank" rel="noopener noreferrer">
-                        Sobre o cardápio
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Conteúdo principal -->
-    <section style="background-color: darkseagreen; padding: 20px;">
-        <div>
-            <h2>Deliciosas comidas da Vó Maria</h2>
-            <p>
-                Sua jornada começa com a inscrição. Se selecionado,<br />
-                você participará do curso de Gastronomia.<br />
-                Caso a inscrição seja concluída até o dia 30/08/2025,
-            </p>
-            <button style="background-color: chocolate; color: white; margin-right: 10px;">Compre</button>
-            <button>Venda</button>
-        </div>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="logo">Vó Maria</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#">Início</a></li> 
+        <li><a href="#">Cardápio</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <div style="display: flex; gap: 20px; margin: 20px 0;">
-            <!-- Imagem local: Salada.png -->
-            <img src="./Salada.png" alt="Imagem de salada feita pela Vó Maria" width="300" />
-            <!-- Imagem externa -->
-            <img src="https://rickesdigital.com/wp-content/uploads/2023/10/Hamburguer-Tradicional.png" alt="Imagem ilustrativa do cardápio" width="300" />
-        </div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="text-hero">
+      <h1>Comida com amor de vó</h1>
+      <p>Feito com afeto.</p>
+      <div class="buttons">
+        <button class="btn-primary">Ver Cardápio</button>
+        <button class="btn-secondary">Serviços</button>
+      </div>
+    </div>
+    <div class="img-hero">
+      <img src="img/prato-principal.png" alt="Prato principal do restaurante">
+    </div>
+  </section>
+<!-- Seção Top List -->
+<section class="top-list">
+  <h2>Top List</h2>
+  <p class="subtitulo">Nossos pratos mais pedidos</p>
 
-        <div style="margin: 20px 0;">
-            <!-- Vídeo do YouTube corrigido -->
-            <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/Zrb5bQc73kI"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-            ></iframe>
-        </div>
+  <div class="cards-pratos">
+    <!-- Card 1 -->
+    <div class="card-prato">
+      <div class="img-prato">
+        <img src="img/prato1.jpeg" alt="Prato 1">
+      </div>
+      <div class="info-prato">
+        <p class="nota">⭐ 9.9</p>
+        <h3>Pudim de Vó</h3>
+        <p class="descricao">Pudim de leite</p>
+        <p class="preco">R$ 22</p>
+      </div>
+    </div>
 
-        <label for="forma">Escolha um formato:</label>
-        <select name="forma" id="forma">
-            <option value="flor">Flor</option>
-            <option value="circulo">Círculo</option>
-            <option value="triangulo">Triângulo</option>
-        </select>
-    </section>
+    
+    <!-- Card 3 -->
+    <div class="card-prato">
+      <div class="img-prato">
+        <img src="img/prato3.png" alt="Prato 3">
+      </div>
+      <div class="info-prato">
+        <p class="nota">⭐ 9.2</p>
+        <h3>Moqueca de Peixe</h3>
+        <p class="descricao">Peixe fresco no leite de coco com tempero baiano</p>
+        <p class="preco">R$ 48</p>
+      </div>
+    </div>
+    <!-- Card 4 -->
+    <div class="card-prato">
+      <div class="img-prato">
+        <img src="img/prato4.jpeg" alt="Prato 4">
+      </div>
+      <div class="info-prato">
+        <p class="nota">⭐ 8.7</p>
+        <h3>Camarão com Legumes</h3>
+        <p class="descricao">Camarão com legumes</p>
+        <p class="preco">R$ 42</p>
+      </div>
+    </div>
+    <!-- Card 5 -->
+    <div class="card-prato">
+      <div class="img-prato">
+        <img src="img/prato5.png" alt="Prato 5">
+      </div>
+      <div class="info-prato">
+        <p class="nota">⭐ 9.1</p>
+        <h3>Massa Fresca com Legumes</h3>
+        <p class="descricao">massa fresca com camarao e legumes</p>
+        <p class="preco">R$ 55</p>
+      </div>
+    </div>
+    <!-- Card 6 -->
+    <div class="card-prato">
+      <div class="img-prato">
+        <img src="img/prato6.png" alt="Prato 6">
+      </div>
+      <div class="info-prato">
+        <p class="nota">⭐ 9.4</p>
+        <h3>Picanha Assada com Batatas</h3>
+        <p class="descricao">Picanha assada com batata e alecrim</p>
+        <p class="preco">R$ 65</p>
+      </div>
+    </div>
+    <!-- Card 7 -->
+    <div class="card-prato">
+      <div class="img-prato">
+        <img src="img/prato-principal.png" alt="Prato 7">
+      </div>
+      <div class="info-prato">
+        <p class="nota">⭐ 10</p>
+        <h3>Polvo com Molho de Laranja</h3>
+        <p class="descricao">Polvo salteado com molho de laranja</p>
+        <p class="preco">R$ 79</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Rodapé -->
-    <footer style="background-color: darkorchid; padding: 20px; color: white;">
-        <label for="dados">Digite seu e-mail:</label>
-        <input type="text" id="dados" name="dados" />
-        <p>
-            Interessados entar em contato conosco traves do e-mail!
-        </p>
-    </footer>
+<!-- Seção Destaque do Prato -->
+<section class="destaque-prato">
+  <div class="img-destaque">
+    <img src="img/lagosta.png" alt="O mais pedido">
+  </div>
+  <div class="texto-destaque">
+    <h2>O mais pedido</h2>
+    <p class="descricao">
+      lagosta, camarões, peixe, mexilhões, lula, abacaxi e tomates grelhados com azeite e alho e servidos com azeite aromatizado. Além disso, acompanham risoto de limão-siciliano e alho-poró.
+    </p>
+  </div>
+</section>
+
+<!-- Seção Serviços -->
+<section class="servicos">
+  <h2>Nossos serviços</h2>
+  <div class="lista-servicos">
+    <div class="servico">
+      <img src="img/reserva.png" alt="Reserva online">
+      <p>Reserva online</p>
+    </div>
+    <div class="servico">
+      <img src="img/buffet.png" alt="Catering">
+      <p>Serviço de buffet</p>
+    </div>
+    <div class="servico">
+      <img src="img/rolha.jpeg" alt="Assinatura">
+      <p>Rolha livre</p>
+    </div>
+    <div class="servico">
+      <img src="img/delivery.png" alt="Entrega">
+      <p>Delivery</p>
+    </div>
+  </div>
+</section>
 </body>
+<!-- Rodapé -->
+<footer class="rodape">
+  <div class="container-rodape">
+    <div class="logo-footer">Vó Maria</div>
+
+    <ul class="menu-footer">
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Cardápio</a></li>
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </div>
+
+  <p class="copy">&copy; 2025 Vó Maria — Todos os direitos reservados.</p>
+</footer>
+
 </html>

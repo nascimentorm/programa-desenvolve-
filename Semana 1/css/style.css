@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #fbeee0, #fff);
+  color: #333;
+}
+
+/* Cabeçalho */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #c75c38;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 30px;
+  flex-wrap: wrap;
+}
+
+.text-hero h1 {
+  font-size: 1.8rem;
+  color: #c75c38;
+  margin-bottom: 15px;
+}
+
+.text-hero p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #c75c38;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #ddd;
+  color: #333;
+}
+
+.img-hero img {
+  max-width: 400px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.top-list {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.top-list h2 {
+  font-size: 2rem;
+  color: #c75c38;
+}
+
+.top-list .subtitulo {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.cards-pratos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card-prato {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+}
+
+.img-prato img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 4px solid #fff1e8;
+}
+
+.nota {
+  color: #f1a500;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-prato h3 {
+  margin: 5px 0;
+  color: #333;
+}
+
+.descricao {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.preco {
+  font-weight: bold;
+  color: #c75c38;
+}
+
+.destaque-prato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 30px;
+  flex-wrap: wrap;
+  background: #fff9f4;
+}
+
+.img-destaque img {
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.texto-destaque {
+  max-width: 500px;
+}
+
+.texto-destaque h2 {
+  font-size: 2rem;
+  color: #c75c38;
+  margin-bottom: 20px;
+}
+
+.texto-destaque .descricao {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.servicos {
+  padding: 60px 30px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.servicos h2 {
+  font-size: 1.8rem;
+  color: #c75c38;
+  margin-bottom: 30px;
+}
+
+.lista-servicos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.servico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.servico img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.servico p {
+  font-size: 0.95rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.rodape {
+  background-color: #c75c38;
+  color: white;
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+.container-rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-footer {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu-footer {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.menu-footer li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.menu-footer li a:hover {
+  opacity: 0.8;
+}
+
+.copy {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(to bottom right, #fbeee0, #fff);
+  color: #333;
+}
+
+.logo, .logo-footer,
+.text-hero h1,
+.top-list h2,
+.destaque-prato h2,
+.servicos h2,
+.rodape h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.logo, .logo-footer {
+  font-family: 'Dancing Script', cursive;
+  font-size: 8rem; /* ou ajuste conforme preferir */
+  color: #c75c38;
+}
